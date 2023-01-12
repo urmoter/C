@@ -13,4 +13,4 @@ compile:
 	@echo "Done!"
 
 run:
-	@./src/a.out
+	@./a.out
