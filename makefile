@@ -14,3 +14,8 @@ compile:
 
 run:
 	@./a.out
+
+clean:
+	@rm src/*.h.gch
+	@rm *.out
+	@echo "Done!"
