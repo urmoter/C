@@ -4,8 +4,8 @@ all: compile
 
 SHELL := /bin/bash
 
-FILES := $(filter-out src/LL.h.gch, $(wildcard src/*))
-FILES := $(filter-out src/a.out, $(FILES))
+FILES := $(filter-out src/*.h.gch, $(wildcard src/*))
+FILES := $(filter-out src/*.out, $(FILES))
 
 compile:
 	@echo "Compiling..."
