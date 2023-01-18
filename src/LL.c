@@ -9,9 +9,6 @@ struct node{
     struct node* next;
 };
 
-// making a boolean type for convience
-typedef enum bool {false, true} bool;
-
 // Add the value of data as a new node to the beginning of the list "head" 
 void push(NodeP* head_r, int data) {
     // save space for a new node in memory
